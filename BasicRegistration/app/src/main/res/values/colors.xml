@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Primary Shades -->
+    <color name="shade0">#ffffff</color>
+    <color name="shade1">#fbfbfb</color>
+    <color name="shade2">#f7f7f7</color>
+    <color name="shade3">#d3d5da</color>
+    <color name="shade4">#b0b4bd</color>
+    <color name="shade5">#90949e</color>
+    <color name="shade6">#717580</color>
+    <color name="shade7">#595d66</color>
+    <color name="shade8">#42454c</color>
+    <color name="shade9">#33353a</color>
+    <color name="shade10">#242529</color>
+    <color name="shade11">#191b1e</color>
+    <color name="shade12">#0f1114</color>
+</resources>

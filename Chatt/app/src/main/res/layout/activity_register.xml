@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:background="@drawable/btn"
-            android:backgroundTint="#1DA1F2"
+            android:backgroundTint="@color/color3"
             android:drawableEnd="@drawable/twitter"
             android:paddingEnd="16dp"
             android:paddingStart="16dp"

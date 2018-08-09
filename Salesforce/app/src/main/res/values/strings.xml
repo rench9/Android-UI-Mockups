@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Salesforce</string>
+    <string name="copy_right">Copyright © 2018 salesforce.com, inc. All rights reserved.</string>
+    <string name="remember_user_name">Remember User Name</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="log_in_btn">Log in to Salesforce</string>
+</resources>

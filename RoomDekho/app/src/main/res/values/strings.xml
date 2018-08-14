@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Room Dekho</string>
+    <string name="my_activity">My Activity</string>
+    <string name="post_property">POST PROPERTY</string>
+    <string name="new_projects">NEW PROJECTS</string>
+    <string name="tag_line">Property Sahi, Milegi Yahin !</string>
+    <string name="buy">BUY</string>
+    <string name="rent">RENT</string>
+    <string name="shortlisted">Shortlisted</string>
+    <string name="last_seen">Last Seen</string>
+    <string name="recent_search">Recent Search</string>
+    <string name="join_us">Join Us</string>
+    <string name="search">Search</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/unit4"
+        android:layout_marginEnd="@dimen/unit5"
+        android:layout_marginStart="@dimen/unit5"
+        android:layout_marginTop="@dimen/unit4"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivProfile"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="@dimen/unit4" />
+
+        <TextView
+            android:id="@+id/tvUserName"
+            style="@style/typography_subheading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/options" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/shade1" />
+
+    <ImageView
+        android:id="@+id/ivFeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/unit4"
+        android:layout_marginEnd="@dimen/unit5"
+        android:layout_marginStart="@dimen/unit5"
+        android:layout_marginTop="@dimen/unit4"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginEnd="@dimen/unit3"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/like" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginEnd="@dimen/unit3"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comment" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginEnd="@dimen/unit3"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/send" />
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bookmark" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLikeCount"
+        style="@style/typography_subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/unit5"
+        android:layout_marginStart="@dimen/unit5"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        style="@style/typography_caption_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/unit5"
+        android:layout_marginStart="@dimen/unit5"
+        android:text="5 minute ago"
+        android:textAllCaps="true" />
+
+</LinearLayout>

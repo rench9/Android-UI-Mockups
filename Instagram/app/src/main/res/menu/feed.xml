@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/tv"
+        android:title="Instagram Tv"
+        app:showAsAction="always" />
+    <item
+        android:icon="@drawable/dm"
+        android:title="Direct Message"
+        app:showAsAction="always" />
+</menu>

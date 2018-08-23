@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo"
+            android:tint="#0bc280" />
+        <TextView
+            style="@style/typography_title_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/unit6"
+            android:layout_marginTop="@dimen/unit6"
+            android:fontFamily="@font/sf_regular"
+            android:text="To Travel Is To Life !" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/unit20"
+            android:layout_marginStart="@dimen/unit20"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_h"
+                android:layout_marginBottom="@dimen/unit6"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/transparent_white"
+                app:cardCornerRadius="@dimen/btn_r"
+                app:cardElevation="@dimen/elevation0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/avatar2"
+                    android:tint="@color/transparent_white"
+                    android:tintMode="src_in" />
+
+                <EditText
+                    android:textAlignment="center"
+                    style="@style/typography_subheading_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:paddingEnd="@dimen/unit5"
+                    android:paddingStart="@dimen/unit16"
+                    android:textColorHint="@color/shade0" />
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_h"
+                android:layout_marginBottom="@dimen/unit6"
+                android:gravity="center"
+                app:cardBackgroundColor="@color/transparent_white"
+                app:cardCornerRadius="@dimen/btn_r"
+                app:cardElevation="@dimen/elevation0">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/lock2"
+                    android:tint="@color/transparent_white"
+                    android:tintMode="src_in" />
+                <EditText
+                    android:textAlignment="center"
+                    android:paddingStart="@dimen/unit16"
+                    style="@style/typography_subheading_light"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="0dp"
+                    android:background="@android:color/transparent"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:paddingEnd="@dimen/unit5"
+                    android:textColorHint="@color/shade0" />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                style="@style/typography_subheading_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginBottom="@dimen/unit5"
+                android:text="Forgot Password? "
+                android:textColor="@color/transparent_white" />
+
+            <Button
+
+                android:id="@+id/btn" style="@style/typography_title_light"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_h"
+                android:layout_marginBottom="@dimen/unit6"
+                android:background="@drawable/shape_btn_pri"
+                android:elevation="@dimen/elevation9"
+                android:fontFamily="@font/sf_light"
+                android:text="Login"
+                android:textStyle="normal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/unit10"
+                android:layout_marginTop="@dimen/unit10"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent_white" />
+
+                <TextView
+                    style="@style/typography_subheading_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/unit3"
+                    android:layout_marginStart="@dimen/unit3"
+                    android:text="Or Connect With"
+                    android:textAlignment="center"
+                    android:textColor="@color/transparent_white" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="@color/transparent_white" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    style="@style/typography_body1_light"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/btn_h"
+                    android:layout_marginBottom="@dimen/unit7"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_btn_pri"
+                    android:backgroundTint="#14709f"
+                    android:fontFamily="@font/sf_light"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fb2"
+                    android:textStyle="normal"
+                    android:tint="@color/transparent_white"
+                    android:tintMode="src_in" />
+
+                <Space
+                    android:layout_width="@dimen/unit4"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    style="@style/typography_body1_light"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/btn_h"
+                    android:layout_marginBottom="@dimen/unit7"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_btn_pri"
+                    android:backgroundTint="#cc2626"
+                    android:fontFamily="@font/sf_light"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/g_plus"
+                    android:textStyle="normal"
+                    android:tint="@color/transparent_white"
+                    android:tintMode="src_in" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/unit4"
+            android:layout_marginTop="@dimen/unit4"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/typography_subheading_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account? "
+                android:textAlignment="center"
+                android:textColor="@color/transparent_white" />
+
+
+            <TextView
+                style="@style/typography_subheading_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sf_medium"
+                android:text="Create now"
+                android:textAlignment="center"
+                android:textColor="@color/shade3" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
